@@ -22,6 +22,7 @@
   "content_scripts": [
     {
       "matches": ["*://news.layervault.com/*", "*://news.ycombinator.com/*"],
+      "css": ["style.css"],
       "js": ["jquery.min.js", "contentscript.js"]
     }
   ]
