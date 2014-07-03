@@ -27,19 +27,6 @@ else if (host === 'news.layervault.com') {
 		}
 		//put the alert on the page
 		$('body').append('<p id="hn-dn-alert">' + howMany + ' Medium ' + word1 + ' ' + word2 + ' hidden.</p>');
-		// $('#hn-dn-alert').css({
-		// 	'position': 'fixed',
-		// 	'top': '0',
-		// 	'right': '0',
-		// 	'padding': '15px 10px',
-		// 	'margin': '10px',
-		// 	'background-color': '#89C595',
-		// 	'font-family': 'helvetica, sans-serif',
-		// 	'font-weight': 'bold',
-		// 	'font-size': '14px',
-		// 	'border-radius': '10px',
-		// 	'border': '1px solid #217D34'
-		// });
 		setTimeout(function(){
 			$('#hn-dn-alert').fadeOut(500, function(){
 				$(this).remove();
