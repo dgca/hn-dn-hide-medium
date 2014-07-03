@@ -1,4 +1,4 @@
 dn-filter-medium
 ================
 
-Bookmarklet to filter medium.com articles on Designer News
+Chrome Extension which hides medium.com articles on Hacker News and Designer News.
