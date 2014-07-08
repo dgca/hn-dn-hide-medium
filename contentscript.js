@@ -63,8 +63,6 @@ chrome.storage.local.get('isPaused',
 			else {
 				//do nothing
 			}
-
 		}
 	}
-
 );
