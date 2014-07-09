@@ -17,7 +17,6 @@ chrome.browserAction.onClicked.addListener(function() {
         chrome.browserAction.setIcon({path: "images/on.png"});
         chrome.storage.local.set({'isPaused': false});
       }
-			console.log(value);
     }
   );
 });
